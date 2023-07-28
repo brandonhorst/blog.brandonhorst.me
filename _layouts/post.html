@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<div class="box">
+  <div class="post">
+    <div class="metadata">
+      <div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
+      <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+    </div>
+    <div class="content">{{ content }}</div>
+  </div>
+</div>

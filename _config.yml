@@ -1,0 +1,10 @@
+title: "Brandon Horst's Blog"
+description: "Thoughts about text, LLMs, and Apple app development."
+blogurl: https://blog.brandonhorst.me
+author: Brandon Horst
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
